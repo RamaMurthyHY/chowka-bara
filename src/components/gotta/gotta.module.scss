@@ -1,0 +1,21 @@
+.gotta {
+  background: rgb(204, 178, 253);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .left {
+    width: 100%;
+    transform: rotate(51deg);
+    position: absolute;
+    background: #006fff;
+  }
+  .right {
+    width: 100%;
+    transform: rotate(130deg);
+    position: absolute;
+    background: #006fff;
+  }
+}
